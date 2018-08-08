@@ -1,0 +1,140 @@
+body{
+    background-color: #BDBDBD;
+}
+#container{
+    width: 750px;
+    height: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #EF9A9A;
+    box-shadow: black 15px 15px 5px;
+position: relative;
+}
+#score{
+    background-color: #448AFF;
+color: black;
+    box-shadow: 0px 2px;
+    left:700px;
+    position: absolute;
+    padding: 10px;
+margin-bottom: 10px;
+    top:15px;
+
+
+}
+#correct{
+    left: 40%;
+    background-color: #B2FF59;
+position: absolute;
+    padding: 10px;
+    box-shadow: 2px 2px;
+    display: none;
+}
+#wrong{
+    display: none;
+    left: 40%;
+    background-color: #E65100;
+    position: absolute;
+    padding: 10px;
+box-shadow: 2px 2px;
+}
+#fruitContainer{
+    position: relative;
+    height: 400px;
+    width: 650px;
+    margin: 40px auto 10px auto;
+background-color: white;
+color: aliceblue;
+    font-family: Chiller;
+    box-shadow: 5px 5px black;
+    font-size: 50px;
+text-align: center;
+padding-top: 40px;
+overflow: hidden;
+}
+#instruction{
+    background-color: #E57373;
+    height: 50px;
+    width: 400px;
+margin: 10px auto;
+text-align: center;
+    line-height: 45px;
+    box-shadow: 5px 5px black;
+
+}
+#options{
+    width: 400px;
+    height: 100px;
+    margin: 15px auto;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+    float: left;
+    margin-right: 24px;
+cursor: pointer;
+    box-shadow: 0 3px #9E9E9E;
+    text-align: center;
+    line-height: 80px;
+}
+.box:hover,#startreset:hover{
+    background-color:#E57373 ;
+    box-shadow: 0px 4px #B71C1C ;
+}
+#box4{
+    margin-right: 0;
+}
+#startreset{
+    width: 80px;
+    height: 25px;
+  position: relative;
+    background-color: #B71C1C;
+    float: left;
+    margin: 15px  0px 10px 150px;
+    cursor: pointer;
+    box-shadow: 0 3px #9E9E9E;
+    text-align: center;
+    padding: 10px;
+
+}
+#lifeRemain{
+    width: 100px;
+
+    margin-bottom: 10px;
+    top:15px;
+
+    background-color: #448AFF;
+    position: absolute;
+
+    margin-left: 50px;
+    height: 35px;
+    text-align: center;
+
+    box-shadow: 0px 5px black;
+display: none;
+}
+#gameover {
+    height: 220px;
+    width: 550px;
+    position: absolute;
+    z-index: 5;
+    top: 160px;
+    background: linear-gradient(#A5D6A7,#43A047);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    left: 130px;
+    display: none;
+}
+.life{
+    width:15px;
+    height: 15px;
+
+    margin-top: 10px;
+margin-right: 5px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
