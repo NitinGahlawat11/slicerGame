@@ -22,22 +22,8 @@ margin-bottom: 10px;
 
 
 }
-#correct{
-    left: 40%;
-    background-color: #B2FF59;
-position: absolute;
-    padding: 10px;
-    box-shadow: 2px 2px;
-    display: none;
-}
-#wrong{
-    display: none;
-    left: 40%;
-    background-color: #E65100;
-    position: absolute;
-    padding: 10px;
-box-shadow: 2px 2px;
-}
+
+
 #fruitContainer{
     position: relative;
     height: 400px;
